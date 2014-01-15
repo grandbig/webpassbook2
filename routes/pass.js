@@ -4,7 +4,8 @@
  */
 
 var request = require('request');
-var url = "http://fy11-dev.cloudapp.net/hoge";
+//var url = "http://fy11-dev.cloudapp.net/hoge";
+var url = "http://createpassbook.cloudapp.net:3003/hoge";
 
 exports.sendData = function(req, res) {
 	console.log(req);
